@@ -5,7 +5,8 @@ int get counter {
   return _counter;
 }
 
-void incrementCounter() {
-  _counter++;
+void modifierCoounter(int valor, Function(int, int) operation){
+  _counter = operation(valor, _counter);
+
   }
 }
