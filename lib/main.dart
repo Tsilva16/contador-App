@@ -42,7 +42,7 @@ class _CounterScreenState extends State<CounterScreen> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Center(child: Text('Sua contador esta em:', 
+          Center(child: Text('Seu contador esta em:', 
           style: 
           TextStyle(
             fontSize: 30,
