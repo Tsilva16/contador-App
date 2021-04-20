@@ -10,6 +10,18 @@ class CounterController {
 
   void incrementCounter(){
 
-    model.incrementCounter();
+    model.modifierCoounter(1, _add);
+  }
+
+  void subtractCounter(){
+    model.modifierCoounter(1, _sub);
+  }
+
+  int _add (int number1, int number2){
+    return number1 + number2;
+  }
+
+  int _sub(int number1, int number2){
+    return number1-number2;
   }
 }
